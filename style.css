@@ -105,6 +105,8 @@ html {
   border: none;
   color: white;
   width: 50px;
+  margin: 0 10px;
+  text-align: center;
 }
 
 button:hover {
