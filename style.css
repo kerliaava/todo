@@ -27,7 +27,7 @@ html {
   padding: 0;
 }
 
-button {
+.addButton {
   font-size: 20px;
   border: 2px solid white;
   border-radius: 50%;
@@ -104,7 +104,7 @@ button {
   outline: none;
   border: none;
   color: white;
-  border-radius: 0;
+  width: 70px;
 }
 
 button:hover {
