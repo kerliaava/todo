@@ -27,6 +27,9 @@ html {
   padding: 0;
 }
 
+
+/*PAGE COMPONENTS*/
+
 .addButton {
   font-size: 20px;
   border: 2px solid white;
@@ -41,8 +44,6 @@ html {
   text-shadow: 0 0 0.5rem black;
   margin: 0 10px;
 }
-
-/*PAGE COMPONENTS*/
 
 .main-container h1 {
   color: white;
