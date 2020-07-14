@@ -119,7 +119,7 @@ button:hover {
 #loader {
   height: 100vh;
   width: 100vw;
-  background-color: rgb(26, 36, 51);
+  background-image: url(/images/cassi-josh-lhnOvu72BM8-unsplash.jpg);
   position: fixed;
   top: 50%;
   left: 50%;
@@ -151,7 +151,7 @@ button:hover {
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: rgb(190, 50, 41);
+  background: linen;
   margin: -4px 0 0 -4px;
 }
 
