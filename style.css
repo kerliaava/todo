@@ -4,11 +4,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   letter-spacing: 3px;
   overflow-y: hidden;
 }
-
 
 #particles-js {
   position: absolute;
@@ -20,7 +19,8 @@
 html {
   font-size: 16px;
   letter-spacing: 5px;
-  background: url(images/cassi-josh-lhnOvu72BM8-unsplash.jpg) no-repeat center center fixed;
+  background: url(./images/painting-kirsten-giorgi.jpg) no-repeat center center
+    fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -29,31 +29,30 @@ html {
   padding: 0;
 }
 
-
 /*PAGE COMPONENTS*/
 
 .addButton {
-  font-size: 20px;
-  border: 2px solid white;
+  font-size: 15px;
   border-radius: 50%;
-  padding: 5px;
-  transition: all 0.07s ease;
-  width: 70px;
-  height: 70px;
+
+  width: 65px;
+  height: 65px;
   text-align: center;
-  color: white;
-  background: rgba(0, 0, 0, 0.4);
-  text-shadow: 0 0 0.5rem black;
+  color: #4a4b45;
+  background: #bbb4a5;
+  border: solid 1px #d5c4ba;
   margin: 0 10px;
+  outline: none;
 }
 
 .main-container h1 {
-  color: white;
+  color: #4a4b45;
   text-align: center;
   text-transform: uppercase;
   margin: 30px;
   font-size: 70px;
-  letter-spacing: 5px;
+
+  letter-spacing: 10px;
 }
 
 .input_div {
@@ -66,12 +65,11 @@ html {
 .input_div .input {
   height: 50px;
   outline: none;
-  background-color: white;
+  background-color: #d5c4ba;
   width: 500px;
   border-radius: 25px;
   border: none;
   padding-left: 10px;
-
 }
 
 .container {
@@ -86,28 +84,26 @@ html {
 .item {
   padding: 10px;
   margin: 10px;
-  border-bottom: 4px solid #ffffff;
+  border-bottom: 4px solid #4a4b45;
 }
 
 .item_input {
   background: none;
   outline: none;
-  color: white;
+  color: #4a4b45;
   border: none;
   width: 350px;
   font-size: 15px;
-
 }
 
 .editButton,
 .removeButton {
-
   height: 30px;
   font-size: 20px;
   background: none;
   outline: none;
   border: none;
-  color: white;
+  color: #4a4b45;
   margin: 0 10px;
   text-align: center;
 }
@@ -121,13 +117,13 @@ button:hover {
 #loader {
   height: 100vh;
   width: 100vw;
-  background-image: url(./images/cassi-josh-lhnOvu72BM8-unsplash.jpg);
+  background-image: url(./images/painting-kirsten-giorgi.jpg);
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 999;
-  transition: all .9s ease-out 0.3s;
+  transition: all 0.9s ease-out 0.3s;
 }
 
 .lds-roller {
@@ -153,7 +149,7 @@ button:hover {
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: linen;
+  background: #4a4b45;
   margin: -4px 0 0 -4px;
 }
 
